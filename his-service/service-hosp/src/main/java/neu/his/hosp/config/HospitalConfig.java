@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @MapperScan("neu.his.hosp.mapper")
 public class HospitalConfig {
     @Bean
-    public PaginationInterceptor paginationInterceptor(){
+    public PaginationInterceptor hospitalPaginationInterceptor(){
         return new PaginationInterceptor();
     }
 }

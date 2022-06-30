@@ -1,11 +1,13 @@
 package neu.his.hosp.service;
 
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.baomidou.mybatisplus.extension.service.IService;
+
+
 import neu.his.model.hosp.Hospital;
 import neu.his.vo.hosp.HospitalQueryVo;
+import org.springframework.data.domain.Page;
 
 import java.util.*;
+
 
 public interface HospitalService {
     //上传医院接口
@@ -31,4 +33,5 @@ public interface HospitalService {
 
     //根据医院编号获取预约挂号详情
     Map<String, Object> item(String hoscode);
+
 }

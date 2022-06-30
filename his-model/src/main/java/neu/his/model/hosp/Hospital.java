@@ -3,6 +3,7 @@ package neu.his.model.hosp;
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+
 import lombok.Data;
 import neu.his.model.base.BaseMongoEntity;
 import org.springframework.data.mongodb.core.index.Indexed;
